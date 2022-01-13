@@ -37,7 +37,6 @@ body {
   border-bottom: 1px solid orangered;
   display: flex;
   flex-direction: column;
-  width: 500px;
 }
 .list-items__text {
   display: flex;
@@ -68,4 +67,34 @@ body {
 }
 .text-total__text {
   margin-right: 10px;
+}
+.form-list {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.form-list__form--cointainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.form-list__title {
+  margin: 10px;
+}
+.form-list__form {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 250px;
+  height: 20px;
+}
+.button {
+  background-color: rgb(108, 108, 238);
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 50px;
 }
