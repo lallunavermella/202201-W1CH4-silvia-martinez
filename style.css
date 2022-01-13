@@ -21,3 +21,15 @@ body {
 .header__text--bold {
   font-weight: bold;
 }
+.sub-header {
+  background-color: darkorange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fas {
+  margin: 20px;
+}
+.sub-header__text {
+  margin: 20px;
+}
