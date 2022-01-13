@@ -1,0 +1,35 @@
+body {
+  max-width: 600px;
+  border: 1px solid red;
+}
+.header {
+  background-color: rgb(108, 108, 238);
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.header__title {
+  font-size: 28px;
+}
+.header__text {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+.header__text--bold {
+  font-weight: bold;
+}
+.sub-header {
+  background-color: darkorange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fas {
+  margin: 20px;
+}
+.sub-header__text {
+  margin: 20px;
+}
