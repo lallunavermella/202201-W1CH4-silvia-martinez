@@ -1,6 +1,5 @@
 body {
-  max-width: 600px;
-  border: 1px solid red;
+  max-width: 500px;
 }
 .header {
   background-color: rgb(108, 108, 238);
@@ -32,4 +31,41 @@ body {
 }
 .sub-header__text {
   margin: 20px;
+}
+.list-items {
+  background-color: orange;
+  border-bottom: 1px solid orangered;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.list-items__text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.list-items__text-bloc1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.far {
+  margin: 10px;
+  align-items: center;
+}
+.list-items__text-bloc2 {
+  display: flex;
+  align-items: center;
+}
+.list-items__text-bloc1-text {
+  text-decoration: line-through;
+}
+.text-total {
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+}
+.text-total__text {
+  margin-right: 10px;
 }
